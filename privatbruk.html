@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evjen Granitt - Produkter med skreddersydde løsninger.</title>
+    <meta name="description" content="Se vårt utvalg av granittprodukter for privatbruk inkludert brostein, benkeplater og heller.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#76ac7a",
+                        secondary: "#5a3921",
+                        accent: "#8b7355"
+                    },
+                    fontFamily: {
+                        sans: ['Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['Georgia', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-50 font-sans">
+    <!-- Heading med navigasjon -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html"><img src="Bilder/Forsidebilde3.png" alt="Evjen Granitt logo" class="h-16 mr-4"></a>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex banner-text-resize space-x-6">
+                        <li><a href="index.html" class="text-black hover:text-primary font-medium">Hjem</a></li>
+                        <li><a href="privatbruk.html" class="text-black hover:text-primary font-medium">Produkter</a></li>
+                        <li><a href="prosjekter.html" class="text-black hover:text-primary font-medium">Prosjekter</a></li>
+                        <li><a href="produkter.html" class="text-black hover:text-primary font-medium">Billigkroken</a></li>
+                        <li><a href="index.html"href="#contact" class="text-black hover:text-primary font-medium">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <button class="md:hidden text-black">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero seksjon -->
+    <section class="prosjekt-bilde3 py-20">
+        <div class="container mx-auto shadow-text text-white px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Tilpassede produkter</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Utforsk vårt utvalg av spesiallagde granittløsninger til ditt hjem</p>
+        </div>
+    </section>
+
+    <!-- Produktkategorier -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Våre produktkategorier</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="#brostein" class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-square"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-black">Brostein</h4>
+                    <p class="text-gray-700">Høykvalitets brostein av granitt til oppkjørsel og gangveier</p>
+                </a>
+                <a href="#benkeplate" class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-black">Benkeplater</h4>
+                    <p class="text-gray-700">Elegante og holdbare granittmøbler til utendørs bruk</p>
+                </a>
+                <a href="#heller" class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-border-style"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-black">Spesialbestillinger</h4>
+                    <p class="text-gray-700">Vi tar de aller fleste prosjekter og spesialproduserte bestillinger</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brostein produkter -->
+    <section id="brostein" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Byggestein og overflater</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk1.jpg" alt="Evjen Granitt brostein, behandlet overflate" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Brostein</h4>
+                        <p class="text-gray-700 mb-4">Elegant hvit granitt med behandlet overflate gir et eksklusivt uttrykk som er perfekt til oppkjørseler og gangveier.
+                            kan bestilles i størrelser alt fra 3cm til 250cm, og med <br>en nøyaktighet på 0.5 - 1.5 mm.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Klassisk hvit evjen granitt</span>
+
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk2.jpg" alt="Granittheller" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Heller</h4>
+                        <p class="text-gray-700 mb-4">"Klippet" stein som gir en mer naturlig overflate. Perfekt til å bygge blomsterbed, 
+                            eller murkant for en fin overgang til et høyere plan. Kan fåes flammet, prikket, kappet eller polert opptil 5000 korn.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Flammet, prikket, kappet eller polert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk3.jpg" alt="Trapp av granitt opp en skråning" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Trapp av granitt</h4>
+                        <p class="text-gray-700 mb-4">Trappeoppgangene våre kommer i standardmål, men vi kan også speisaltilpasse høyde, bredde og dybde per trinn.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Standard høyde og dybde</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- benkeplate produkter -->
+    <section id="benkeplate" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Benkeplater og hagemøbler</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk4.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Bord med benk</h4>
+                        <p class="text-gray-700 mb-4">Ren hvit granitt med subtile sorte årer gir et lyst og romslig inntrykk.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Elegant, tidløst</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk5.jpg" alt="Benk av granitt med trekasse" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Benk m/uten trekasse</h4>
+                        <p class="text-gray-700 mb-4">Enkel benkeplate uten bord, med eller uten trekasse på toppen. Klassisk og tidløst design.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Raffinert, sofistikert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk6.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Klassisk bord med benk</h4>
+                        <p class="text-gray-700 mb-4">Alle granittbord har forskjellige mønstre da vi henter granitten ut fra naturlig berg. Perfekt for et moderne uteområde.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Grasiøst, forfinet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- spesialbestillinger -->
+    <section id="heller" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Spesialbestillinger og skreddersydde løsninger</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/privatbruk7.jpg" alt="Granittskulptur" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Skulpturering</h4>
+                        <p class="text-gray-700 mb-4">Dette er en spiralsak laget av granitt, og skal være en del av en større skulptur.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">CNC designs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk8.jpg" alt="Granitt bokstaver og tall skåret med sag" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Tall og bokstaver</h4>
+                        <p class="text-gray-700 mb-4">Granitten kan bli kappet og formet etter dine ønsker.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">1 2 3 a b c</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk9.jpg" alt="Båt gravert i Granitt" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Inngravering i stein</h4>
+                        <p class="text-gray-700 mb-4">Vi har spesialverktøy til valgfri gravering, maskindesign eller manuell gravering.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk10.jpg" alt="Granitthelle med rennemønster" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Taktile mønstre</h4>
+                        <p class="text-gray-700 mb-4">Med en kombinasjon av CNC maskinering og nøyaktig presisjon og håndverk, kan vi lage unike og funksjonelle mønstre i granitt.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk11.jpg" alt="Bord med skifer og granittdesign" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Bord og brostein</h4>
+                        <p class="text-gray-700 mb-4">Inspirasjon til bord og brostein i granitt og skifer.</p>
+                        <div class="flex justify-between items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk12.jpg" alt="Inngangstrapp av Granitt" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Inngangsparti</h4>
+                        <p class="text-gray-700 mb-4">Kan designes og bygges på flere måter. Dette eksempelet er en standard trappoppgang.</p>
+                        <div class="flex justify-between items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk13.jpg" alt="Inngangstrapp av Granitt" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Naturstein, marmor og mer</h4>
+                        <p class="text-gray-700 mb-4">Vi tar imot alt av stein til kapping og prosessering. Har du funnet en interessant stein i hagen du kunne tenkt deg å lage en liten overflate av? Vi hjelper deg.</p>
+                        <div class="flex justify-between items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk14.jpg" alt="Inngangstrapp av Granitt" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Polerte overflater</h4>
+                        <p class="text-gray-700 mb-4">Vi har en poleringsmaskin som kan håndtere både store og små overflater, med et skinnende resultat. Granitten blir mørkere av å bli polert.</p>
+                        <div class="flex justify-between items-center">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk15.jpg" alt="Mørkere granitt" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Mørkere Granitt</h4>
+                        <p class="text-gray-700 mb-4">Vi har forskjellige skygger av natursteinen tilgjengelig, inkludert mørkere nyanser.</p>
+                        <div class="flex justify-between items-center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bunntekst -->
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2026 Evjen Granitt AS</p>
+                </div>
+                <div>
+                    <ul class="flex space-x-6">
+                        <li><a href="Omoss.html" class="hover:text-accent">Om oss</a></li>
+                        <li><a href="Personvern.html" class="hover:text-accent">Personvern</a></li>
+                        <li><a href="Rettigheter.html" class="hover:text-accent">Vilkår</a></li>
+                        <li><a href="Index.html" class="hover:text-accent">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="javascript/main.js"></script>
+
+</body>
+</html>

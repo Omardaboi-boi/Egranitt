@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evjen Granitt - B-produkter og restmateriale</title>
+    <meta name="description" content="Billig sortiment av granittprodukter inkludert sekundærprodukter.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#76ac7a",
+                        secondary: "#5a3921",
+                        accent: "#8b7355"
+                    },
+                    fontFamily: {
+                        sans: ['Helvetica', 'Arial', 'sans-serif'],
+                        serif: ['Georgia', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gray-50 font-sans">
+    <!-- Heading med navigasjon -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html"><img src="Bilder/Forsidebilde3.png" alt="Evjen Granitt logo" class="h-16 mr-4"></a>
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex banner-text-resize space-x-6">
+                        <li><a href="index.html" class="text-black hover:text-primary font-medium">Hjem</a></li>
+                        <li><a href="privatbruk.html" class="text-black hover:text-primary font-medium">Produkter</a></li>
+                        <li><a href="prosjekter.html" class="text-black hover:text-primary font-medium">Prosjekter</a></li>
+                        <li><a href="produkter.html" class="text-black hover:text-primary font-medium">Billigkroken</a></li>
+                        <li><a href="index.html"href="#contact" class="text-black hover:text-primary font-medium">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <button class="md:hidden text-black">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero seksjon -->
+    <section class="prosjekt-bilde4 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">B-produkter / Restmateriale</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Utforsk vårt utvalg av overskuddsprodukter<br> fra prosjekter, samt sekundærprodukter</p>
+        </div>
+    </section>
+
+    <!-- Produkt kategorier -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Våre produktkategorier</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="#benkeplate" class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-black">Sekundærprodukter</h4>
+                    <p class="text-gray-700">Brukbare restprodukter som pukk, grus, fyllmasse, steintavler og steinprodukter</p>
+                </a>
+                <a href="#brostein" class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2 text-black">B-produkter</h4>
+                    <p class="text-gray-700">Stein med diverse skavanker, som bruning, hakk og sprekker</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekundærprodukter -->
+    <section id="benkeplate" class="py-16 bg-gray-100s">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Gode sekundærprodukter</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt7.jpg" alt="Hvit granittbenkeplate med subtile grå årer" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Pukk, grus og fyllmasse</h4>
+                        <p class="text-gray-700 mb-4">0-16, 16-32<br> Sand / steinmel <br> fyllmasse</p>
+                        <div class="flex justify-between items-center">
+                        <span> <a href="Index.html" class="image-link font-bold inline-block mt-4 text-primary hover:text-accent">Kontakt for bestilling → </a> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt8.jpg" alt="Svart granittbenkeplate med hvitspreng" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Her kan pukk, grus og steinmel hentes eller bestilles</h4>
+                        <p class="text-gray-700 mb-4">Vi hjelper deg med å finne riktig mengde, fremkomst og frakt.</p>
+                        <div class="flex justify-between items-center">
+                        <span> <a href="Index.html" class="image-link font-bold inline-block mt-4 text-primary hover:text-accent">Kontakt for bestilling → </a> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt9.jpg" alt="Blågrå granittbenkeplate med unikt mønster" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Rest-blokker, bruning, sprekker osv</h4>
+                        <p class="text-gray-700 mb-4">Skjer ofte som følge av oksidasjon.
+                            Da reagerer mineralene i steinen med oksygen og vann over tid. Som etterfølge av denne reaksjonen endres utseende på granitten.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt12.jpg" alt="Steinmel" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Steinmel samles opp i gjenvinningsstasjonen som resirkulerer vannet vi bruker.</h4>
+                        <p class="text-gray-700 mb-4">Slik får vi både et rent biprodukt, samt en bærekraftig produksjonsprosess.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Brostein produkter -->
+    <section id="brostein" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">B-produkter og restmateriale</h2>
+            <p class="text-2xl text-center py-4 text-primary">Restmaterialer varierer fra prosjekt til prosjekt, men her er en kiktitt for hva du kan forvente. <br> Send en forespørsel, så skal vi se om vi har dine spesifikasjoner tilgjengelig. </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt1.jpg"Grå granittbrostein i forskjellige størrelser" class="w-full h-80 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Brostein | produkt 37</h4>
+                        <p class="text-gray-700 mb-4">Kant- og Byggestein</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">L 373 B 180 H 130 | 25kg / stk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt2.jpg" alt="Sort granittbrostein med polert overflate" class="w-full h-80 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Heller | produkt 42</h4>
+                        <p class="text-gray-700 mb-4">Kantstein</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">L 600 B 180 H 300 | 90 kg / stk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt3.jpg"Rødbrun granittbrostein med naturlig finish" class="w-full h-80 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Brostein | produkt 59</h4>
+                        <p class="text-gray-700 mb-4">Granittstein til platting</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">L 373 B 373 H 130 | 50 kg / stk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt4.jpg"Grå granittbrostein i forskjellige størrelser" class="w-full h-80 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Platting | produkt 41</h4>
+                        <p class="text-gray-700 mb-4">Evjengranitt til platting</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">L 373 B 373 H 50 | 20kg / stk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt5.jpg" alt="Sort granittbrostein med polert overflate" class="w-full h-80 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Heller | produkt 42</h4>
+                        <p class="text-gray-700 mb-4">Kantstein</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">L 600 B 180 H 300 | 90 kg / stk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="B-produkter bilder/B-produkt6.jpg"Rødbrun granittbrostein med naturlig finish" class="w-full h-80 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Brostein | produkt 59</h4>
+                        <p class="text-gray-700 mb-4">Granittstein til platting</p>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold text-primary">L 373 B 373 H 130 | 50 kg / stk</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bunntekst -->
+    <footer class="bg-primary text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p>&copy; 2026 Evjen Granitt AS</p>
+                </div>
+                <div>
+                    <ul class="flex space-x-6">
+                        <li><a href="Omoss.html" class="hover:text-accent">Om oss</a></li>
+                        <li><a href="Personvern.html" class="hover:text-accent">Personvern</a></li>
+                        <li><a href="Rettigheter.html" class="hover:text-accent">Vilkår</a></li>
+                        <li><a href="Index.html" class="hover:text-accent">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src="javascript/main.js"></script>
+
+</body>
+</html>
