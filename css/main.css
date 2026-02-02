@@ -173,10 +173,11 @@ nav {
     padding: 20px;
     max-width: 500px;
     width: 90%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    z-index: 10000;           /* ← viktig å være høyere enn meny osv */
     display: none;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 .cookie-consent.show {
@@ -184,23 +185,25 @@ nav {
 }
 
 .cookie-consent p {
-    margin: 0 0 15px;
-    font-size: 16px;
+    margin: 0 0 16px 0;
+    font-size: 15px;
     color: #333;
 }
 
 .cookie-consent .buttons {
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    justify-content: center;
 }
 
 .cookie-consent button {
-    padding: 10px 20px;
+    padding: 10px 24px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.2s;
 }
 
 .cookie-consent .accept {
@@ -213,10 +216,10 @@ nav {
 }
 
 .cookie-consent .decline {
-    background-color: #dc3545;
+    background-color: #6c757d;
     color: white;
 }
 
 .cookie-consent .decline:hover {
-    background-color: #c82333;
+    background-color: #5a6268;
 }

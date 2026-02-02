@@ -50,29 +50,39 @@
 });
 
 
-// JavaScript for å håndtere cookie consent
-
-document.getElementById('menu-toggle').addEventListener('click', function() {
-  const navMenu = document.querySelector('nav');
-  navMenu.classList.toggle('hidden');
-});
-
-    function showCookieConsent() {
-      const consent = localStorage.getItem('cookieConsent');
-      if (!consent) {
+function showCookieConsent() {
+    // Sjekk om brukeren allerede har tatt et valg
+    if (!localStorage.getItem('cookieConsent')) {
         document.getElementById('cookieConsent').classList.add('show');
-      }
     }
+}
 
-    function acceptCookies() {
-      localStorage.setItem('cookieConsent', 'accepted');
-      document.getElementById('cookieConsent').classList.remove('show');
+function acceptCookies() {
+    localStorage.setItem('cookieConsent', 'accepted');
+    document.getElementById('cookieConsent').classList.remove('show');
+    // Her kan du legge til kode som AKTIVERER sporing/cookies
+    // f.eks. laste inn Google Analytics, Meta Pixel osv.
+}
+
+function declineCookies() {
+    localStorage.setItem('cookieConsent', 'declined');
+    document.getElementById('cookieConsent').classList.remove('show');
+    // Her kan du sørge for at ingen sporing aktiveres
+}
+
+function handleCookieChoice() {
+    const choice = localStorage.getItem('cookieConsent');
+    if (choice === 'accepted') {
+        // → aktiver analyseverktøy, chat, etc.
+        console.log("Cookies akseptert");
+    } else if (choice === 'declined') {
+        // → blokker tracking
+        console.log("Cookies avvist");
     }
+}
 
-    function declineCookies() {
-      localStorage.setItem('cookieConsent', 'declined');
-      document.getElementById('cookieConsent').classList.remove('show');
-    }
-
-        // Vis cookie-boksen når siden lastes hvis ingen valg er gjort
-    window.onload = showCookieConsent;
+// Kjør når siden er lastet
+document.addEventListener('DOMContentLoaded', () => {
+    showCookieConsent();
+    handleCookieChoice();     // valgfri – kjører logikk ved lasting
+});

@@ -29,6 +29,16 @@
     </script>
     
 </head>
+
+<div class="cookie-consent" id="cookieConsent">
+    <p>Vi bruker cookies for å forbedre din opplevelse på vår nettside. 
+       Ved å fortsette godtar du vår bruk av cookies.</p>
+    <div class="buttons">
+        <button class="accept" onclick="acceptCookies()">Godta</button>
+        <button class="decline" onclick="declineCookies()">Avvis</button>
+    </div>
+</div>
+
 <body class="min-h-screen bg-gray-100 font-sans">
     <!-- Heading med navigasjon -->
     <header class="bg-white shadow-md">
@@ -302,13 +312,6 @@
         </div>
     </footer>
 
-    <div class="cookie-consent" id="cookieConsent">
-        <p>Vi bruker cookies for å forbedre din opplevelse på vår nettside. Ved å fortsette godtar du vår bruk av cookies.</p>
-            <div class="buttons">
-                <button class="accept" onclick="acceptCookies()">Godta</button>
-                <button class="decline" onclick="declineCookies()">Avvis</button>
-            </div>
-    </div>
 
 <script src="javascript/main.js"></script>
 
