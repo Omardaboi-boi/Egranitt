@@ -5,6 +5,14 @@
     background-size: cover;
 }
 
+.prosjekt-gif {
+    background: url(../utstyr\ bilder/utstyrvideo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 .prosjekt-bilde2 {
     background-image: url(../Prosjekt\ bilder/Prosjektbanner.jpg);
     background-repeat: no-repeat;
@@ -61,15 +69,39 @@
     background-size: cover;
 }
 
-.shadow-text {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
-}
+
 
 .prosjekt-bilde9 {
     background-image: url(../index\ bilder/index6.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.prosjekt-bilde10 {
+    background-image: url(../index\ bilder/indexbunntekst.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.prosjekt-bilde11 {
+    background-image: url(../utstyr\ bilder/bakgrunn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.prosjekt-bilde12 {
+    background-image: url(../Privatbruk\ bilder/privatbruk18.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.shadow-text {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
 }
 
 @media only screen and (max-width: 768px) {
@@ -142,14 +174,11 @@
 
 nav {
   transition: all 0.3s ease-in-out;
+  width: fit-content;
+  left: 0.1%;
 }
 
-.prosjekt-bilde10 {
-    background-image: url(../index\ bilder/indexbunntekst.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 
 .image-container{
   position: relative;
