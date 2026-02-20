@@ -86,14 +86,14 @@
 }
 
 .prosjekt-bilde11 {
-    background-image: url(../utstyr\ bilder/bakgrunn.jpg);
+    background-image: url(../utstyr\ bilder/utstyr26.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .prosjekt-bilde12 {
-    background-image: url(../Bilder/omossbakgrunn.jpg) ;
+    background-image: url(../Bilder/omoss3.jpg) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -104,10 +104,19 @@
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
 }
 
+/* Grunnoppsett */
+header {
+    position: relative;
+}
+
 @media only screen and (max-width: 768px) {
     .banner-text-resize {
         font-size: 10px; /* Eller en annen passende størrelse */
         line-height: 1.5; /* Juster linjehøyden for bedre lesbarhet */
+        position: initial;
+        background-color: white;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+        padding: 40px 20px;
     }
 }
 
@@ -251,4 +260,52 @@ nav {
 
 .cookie-consent .decline:hover {
     background-color: #5a6268;
+}
+
+.bg-granitt1 {
+    background-image: url(../utstyr\ bilder/utstyr2.jpg);  /* eller full URL */
+}
+
+.bg-granitt2 {
+    background-image: url(../utstyr\ bilder/utstyr1.jpg);  /* eller full URL */
+}
+
+.bg-granitt3 {
+    background-image: url(../utstyr\ bilder/utstyr4.jpg);  /* eller full URL */
+}
+
+.bg-granitt4 {
+    background-image: url(../utstyr\ bilder/utstyrvideo1.gif);  /* eller full URL */
+}
+
+.bg-granitt5 {
+    background-image: url(../utstyr\ bilder/utstyrvideo2.gif);  /* eller full URL */
+}
+
+.bg-granitt6 {
+    background-image: url(../utstyr\ bilder/utstyrvideo3.gif);  /* eller full URL */
+}
+
+.bg-granitt7 {
+    background-image: url(../utstyr\ bilder/utstyr12.jpg);  /* eller full URL */
+}
+
+.bg-granitt8 {
+    background-image: url(../utstyr\ bilder/utstyr22.jpg);  /* eller full URL */
+}
+
+.bg-granitt9 {
+    background-image: url(../utstyr\ bilder/utstyr25.jpg);  /* eller full URL */
+}
+
+.bg-granitt10 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk17.jpg);  /* eller full URL */
+}
+
+.bg-granitt11 {
+    background-image: url(../Prosjekt\ bilder/Prosjekt2.jpg);  /* eller full URL */
+}
+
+.bg-granitt12 {
+    background-image: url(../Privatbruk\ bilder/privatbruk17.jpg);  /* eller full URL */
 }
