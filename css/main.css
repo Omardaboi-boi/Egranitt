@@ -116,7 +116,7 @@ header {
         position: initial;
         background-color: white;
         box-shadow: -2px 0 10px rgba(0,0,0,0.2);
-        padding: 40px 20px;
+        padding: 40px 10px;
     }
 }
 
@@ -343,7 +343,7 @@ nav {
 }
 
 .bg-granitt21 {
-    background-image: url(../Prosjekt\ bilder/Prosjekt9.jpg);  /* eller full URL */
+    background-image: url(../Prosjekt\ bilder/Prosjekt9.png);  /* eller full URL */
 }
 
 
