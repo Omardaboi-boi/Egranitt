@@ -1,5 +1,5 @@
 .prosjekt-bilde {
-    background-image: url(../index\ bilder/indexbanner.jpg);
+    background-image: url(../index\ bilder/indexbanner1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -333,6 +333,19 @@ nav {
 .bg-granitt18 {
     background-image: url(../B-produkter\ bilder/B-produkt2.jpg);  /* eller full URL */
 }
+
+.bg-granitt19 {
+    background-image: url(../Prosjekt\ bilder/Prosjekt1.jpg);  /* eller full URL */
+}
+
+.bg-granitt20 {
+    background-image: url(../Prosjekt\ bilder/Prosjekt5.jpg);  /* eller full URL */
+}
+
+.bg-granitt21 {
+    background-image: url(../Prosjekt\ bilder/Prosjekt9.jpg);  /* eller full URL */
+}
+
 
 .googlemaps {
     width: 1700px;
