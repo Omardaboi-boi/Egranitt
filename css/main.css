@@ -310,6 +310,30 @@ nav {
     background-image: url(../Privatbruk\ bilder/privatbruk17.jpg);  /* eller full URL */
 }
 
+.bg-granitt13 {
+    background-image: url(../Privatbruk\ bilder/privatbruk1.jpg);  /* eller full URL */
+}
+
+.bg-granitt14 {
+    background-image: url(../Privatbruk\ bilder/privatbruk2.jpg);  /* eller full URL */
+}
+
+.bg-granitt15 {
+    background-image: url(../Privatbruk\ bilder/privatbruk11.jpg);  /* eller full URL */
+}
+
+.bg-granitt16 {
+    background-image: url(../Privatbruk\ bilder/privatbruk4.jpg);  /* eller full URL */
+}
+
+.bg-granitt17 {
+    background-image: url(../B-produkter\ bilder/B-produkt7.jpg);  /* eller full URL */
+}
+
+.bg-granitt18 {
+    background-image: url(../B-produkter\ bilder/B-produkt2.jpg);  /* eller full URL */
+}
+
 .googlemaps {
     width: 1700px;
     height: 450px;
