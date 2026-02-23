@@ -309,3 +309,8 @@ nav {
 .bg-granitt12 {
     background-image: url(../Privatbruk\ bilder/privatbruk17.jpg);  /* eller full URL */
 }
+
+.googlemaps {
+    width: 1700px;
+    height: 450px;
+}
