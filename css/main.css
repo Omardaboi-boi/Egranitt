@@ -354,7 +354,7 @@ nav {
 }
 
 .bg-granitt22 {
-    background-image: url(../Privatbruk\ bilder/Privatbruk38.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk38.JPG);  /* eller full URL */
 }
 
 .bg-granitt23 {
@@ -399,5 +399,6 @@ nav {
     position: relative;
     left: 150px;
     bottom: 100px;
+
 
 }
