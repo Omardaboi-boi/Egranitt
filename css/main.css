@@ -1,5 +1,5 @@
 .prosjekt-bilde {
-    background-image: url(../index\ bilder/indexbanner1.jpg);
+    background-image: url(../index\ bilder/indexbanner3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,12 +111,12 @@ header {
 
 @media only screen and (max-width: 768px) {
     .banner-text-resize {
-        font-size: 10px; /* Eller en annen passende størrelse */
+        font-size: 9px; /* Eller en annen passende størrelse */
         line-height: 1.5; /* Juster linjehøyden for bedre lesbarhet */
         position: initial;
         background-color: white;
         box-shadow: -2px 0 10px rgba(0,0,0,0.2);
-        padding: 40px 10px;
+        padding: 40px 1px;
     }
 }
 
@@ -161,6 +161,13 @@ header {
 @media (max-width: 768px) {
     .image-container {
         cursor: default;
+    }
+}
+
+@media (max-width: 768px) {
+    .kebab {
+        position: relative;
+        bottom: 60px;
     }
 }
 
@@ -311,27 +318,27 @@ nav {
 }
 
 .bg-granitt13 {
-    background-image: url(../Privatbruk\ bilder/Privatbruk1.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk20.jpg);  /* eller full URL */
 }
 
 .bg-granitt14 {
-    background-image: url(../Privatbruk\ bilder/Privatbruk2.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk10.jpg);  /* eller full URL */
 }
 
 .bg-granitt15 {
-    background-image: url(../Privatbruk\ bilder/Privatbruk11.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk28.jpg);  /* eller full URL */
 }
 
 .bg-granitt16 {
-    background-image: url(../Privatbruk\ bilder/Privatbruk4.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk3.jpg);  /* eller full URL */
 }
 
 .bg-granitt17 {
-    background-image: url(../B-produkter\ bilder/B-produkt7.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk32.png);  /* eller full URL */
 }
 
 .bg-granitt18 {
-    background-image: url(../B-produkter\ bilder/B-produkt2.jpg);  /* eller full URL */
+    background-image: url(../Privatbruk\ bilder/Privatbruk6.jpg);  /* eller full URL */
 }
 
 .bg-granitt19 {
@@ -346,8 +353,51 @@ nav {
     background-image: url(../Prosjekt\ bilder/Prosjekt9.jpg);  /* eller full URL */
 }
 
+.bg-granitt22 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk38.jpg);  /* eller full URL */
+}
+
+.bg-granitt23 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk37.jpg);  /* eller full URL */
+}
+
+.bg-granitt24 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk39.jpg);  /* eller full URL */
+}
+
+.bg-granitt25 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk40.jpg);  /* eller full URL */
+}
+
+.bg-granitt26 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk44.jpg);  /* eller full URL */
+}
+
+.bg-granitt27 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk48.jpg);  /* eller full URL */
+}
+
+.bg-granitt28 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk40.jpg);  /* eller full URL */
+}
+
+.bg-granitt29 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk50.jpg);  /* eller full URL */
+}
+
+.bg-granitt30 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk51.jpeg);  /* eller full URL */
+}
+
 
 .googlemaps {
     width: 1700px;
     height: 450px;
+}
+
+.index-banner {
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+
 }
