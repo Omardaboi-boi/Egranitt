@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
+        <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="favicon/favicon6.png">
     <script>
         tailwind.config = {
@@ -35,19 +36,19 @@
                 <div class="flex items-center">
                     <a href="index.html"><img src="Bilder/Forsidebilde3.png" alt="Evjen Granitt logo" class="h-16 mr-4"></a>
                 </div>
+                <button title="nav" class="md:hidden text-black">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
                 <nav class="hidden md:block">
                     <ul class="flex banner-text-resize space-x-6">
                         <li><a href="index.html" class="text-black hover:text-primary font-medium">Hjem</a></li>
                         <li><a href="Omoss.html" class="text-black hover:text-primary font-medium">Om&nbsp;oss</a></li>
                         <li><a href="utstyr.html" class="text-black hover:text-primary font-medium">Utstyr</a></li>
-                        <li><a href="produkter.html" class="text-black hover:text-primary font-medium">Produkter</a></li>
+                        <li><a href="produkter.html" class="text-black hover:text-primary font-medium">Produkter&nbsp;&&nbsp;Tjenester</a></li>
                         <li><a href="prosjekter.html" class="text-black hover:text-primary font-medium">Prosjekter</a></li>
                         <li><a href="index.html" class="text-black hover:text-primary font-medium">Kontakt</a></li>
                     </ul>
                 </nav>
-                <button class="md:hidden text-black">nav
-                    <i class="fas fa-bars text-2xl"></i>
-                </button>
             </div>
         </div>
     </header>
@@ -55,201 +56,392 @@
     <!-- Hero seksjon -->
     <section class="prosjekt-bilde3 py-20">
         <div class="container mx-auto shadow-text text-white px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-6">Tilpassede produkter</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Produkter og Tjenester</h2>
             <p class="text-xl mb-8 max-w-2xl mx-auto">Utforsk vårt utvalg av spesiallagde granittløsninger til ditt hjem</p>
         </div>
     </section>
 
     <!-- Produktkategorier -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <a href="#brostein" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt13 bg-cover bg-center group">
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Vi produserer et rikt utvalg granittprodukter, 
+                    som skreddersys til det perfekte uterom - etter kundens egne ønsker. <br>
+                    Produksjon og videreutvikling av nye / flere produkter og tjenester er under vurdering,
+                    herunder blandt annet benkeplater og gravstein, samt montering av våre produkter hos kundene.<br>&nbsp;<br>
+                    Å levere kvalitet er våre ansattes høyeste filosofi. Dette gjenspeiler seg gjennom hele produksjonslinja,
+                    og avsluttes med pakking og merking av pallene før de sendes til kunden.
+                </p>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
+                <a href="#belegningsstein" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt13 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Brostein</h4>
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Belegningsstein / Heller</h4>
                     </div>
                 </a>
-                <a href="#heller" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt14 bg-cover bg-center group">
+                <a href="#taktile-heller" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt14 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Heller</h4>
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Taktile heller / Knotteheller / Spesialheller</h4>
                     </div>
                 </a>
-                <a href="#Spesialbestillinger" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt15 bg-cover bg-center group">
+                <a href="#vannrenner" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt15 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Spesialbestillinger</h4>
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Vannrenner</h4>
                     </div>
                 </a>
-                <a href="#benkeplate" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt16 bg-cover bg-center group">
+                <a href="#benkeplate" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt16 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Benkeplater</h4>
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Trappetrinn</h4>
                     </div>
                 </a>
-                <a href="#sekundærprodukter" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt17 bg-cover bg-center group">
+                <a href="#murstein" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt17 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Sekundærprodukter</h4>
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Murstein</h4>
                     </div>
                 </a>
-                <a href="#b-produkter" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt18 bg-cover bg-center group">
+                <a href="#bord" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt18 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">B-produkter</h4>
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Bord og benker</h4>
+                    </div>
+                </a>
+                <a href="#grill" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt22 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Grill / blomsterkasse</h4>
+                    </div>
+                </a>
+                <a href="#husnummer" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt23 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Husnummer</h4>
+                    </div>
+                </a>
+                <a href="#ovnsplate" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt24 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Ovnsplate</h4>
+                    </div>
+                </a>
+                <a href="#fliser" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt25 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Fliser for vegg / Brannmur</h4>
+                    </div>
+                </a>
+                <a href="#benkeplater" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt26 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Benkeplater for kjøkkenbenk etc.</h4>
+                    </div>
+                </a>
+                <a href="#småprodukter" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt27 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Småprodukter</h4>
+                    </div>
+                </a>
+                <a href="#resteprodukter" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt29 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Resteprodukter</h4>
+                    </div>
+                </a>
+                <a href="#øvrige-tjenester" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt30 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="text-xl font-bold mb-2 text-white text-center">Øvrige Tjenester</h4>
                     </div>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Brostein produkter -->
-    <section id="brostein" class="py-16 bg-gray-100">
+               <!-- Belegningsstein -->
+    <section id="belegningsstein" class="py-10 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Brostein og overflater</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Belegningsstein / Heller</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Produseres etter ønsket mål med hensyn til lengde, bredde
+                og tykkelse.<br> Overflatene gradhugges eller flammes - også dette etter kundens ønske.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk1.jpg" alt="Evjen Granitt brostein, behandlet overflate" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk23.jpg" alt="Evjen Granitt brostein, behandlet overflate" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk19.jpg" alt="Granittheller" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk22.png" alt="Granittheller" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk20.jpg" alt="Trapp av granitt opp en skråning" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk20.jpg" alt="Trapp av granitt opp en skråning" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Heller -->
-    <section id="heller" class="py-16 bg-gray-100">
+    <!-- Taktile heller / knotteheller -->
+    <section id="taktile-heller" class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Heller</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Taktile heller / knotteheller</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Ledelinjer for blinde og svaksynte. Knottehellene
+                    benyttes som blandt annetdørmatte foran større bygg.
+                </p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk21.jpg" alt="Evjen Granitt brostein, behandlet overflate" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk24.jpg" alt="Evjen Granitt brostein, behandlet overflate" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk2.jpg" alt="Granittheller" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk25.jpg" alt="Granittheller" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk3.jpg" alt="Trapp av granitt opp en skråning" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk10.jpg" alt="Trapp av granitt opp en skråning" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- benkeplate produkter -->
-    <section id="benkeplate" class="py-16 bg-white">
+    <!-- Vannrenner -->
+    <section id="vannrenner" class="py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Benkeplater og hagemøbler</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Vannrenner</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Både rette og tilpassede.<br>
+                    Overflatebehandles med gradhugging eller flamming.
+                </p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk4.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk26.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk5.jpg" alt="Benk av granitt med trekasse" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk27.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk6.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-10">
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk16.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk17.jpg" alt="Benk av granitt med trekasse" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk18.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk28.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- spesialbestillinger -->
-    <section id="Spesialbestillinger" class="py-16 bg-gray-100">
+    <!-- Trappetrinn -->
+    <section id="trappetrinn" class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Spesialbestillinger og skreddersydde løsninger</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Trappetrinn</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Høyde trappetrinn ihensyn til standard, bredde og lengde
+                    etter ønsket mål.<br> Overflate gradhugges eller flammes. Også andre sider kan bearbeides. Kanter rundes etter ønske.
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/privatbruk7.jpg" alt="Granittskulptur" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk29.jpg" alt="Granittskulptur" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk8.jpg" alt="Granitt bokstaver og tall skåret med sag" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk30.JPG" alt="Granitt bokstaver og tall skåret med sag" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk9.jpg" alt="Båt gravert i Granitt" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk10.jpg" alt="Granitthelle med rennemønster" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk11.jpg" alt="Bord med skifer og granittdesign" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk12.jpg" alt="Inngangstrapp av Granitt" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk13.jpg" alt="Inngangstrapp av Granitt" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk14.jpg" alt="Inngangstrapp av Granitt" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Privatbruk bilder/Privatbruk15.jpg" alt="Mørkere granitt" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk31.png" alt="Båt gravert i Granitt" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
-            <!-- Sekundærprodukter -->
-        <section id="sekundærprodukter" class="py-16 bg-gray-100s">
+            <!-- Murstein -->
+        <section id="sekundærprodukter" class="py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Gode sekundærprodukter</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Murstein</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Saget topp og bunn. Andre sider råhugd, eventuelt klippet/råsplittet
+                    visflate.<br> Størrelse på murstein tilpasses etter mål på inntil 50 cm høyde.
+                </p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="B-produkter bilder/B-produkt7.jpg" alt="Hvit granittbenkeplate med subtile grå årer" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk32.png" alt="Hvit granittbenkeplate med subtile grå årer" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="B-produkter bilder/B-produkt8.jpg" alt="Svart granittbenkeplate med hvitspreng" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk33.png" alt="Svart granittbenkeplate med hvitspreng" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="B-produkter bilder/B-produkt12.jpg" alt="Steinmel" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="Privatbruk bilder/Privatbruk34.jpg" alt="Steinmel" class="w-full h-60 object-cover" loading="lazy">
             </div>
         </div>
     </section>
 
-        <!-- Brostein produkter -->
-    <section id="b-produkter" class="py-16 bg-gray-100">
+        <!-- Bord og  Benker -->
+    <section id="bord" class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">B-produkter og restmateriale</h2>
-            <p class="mb-4 text-center text-black">Restmaterialer varierer fra prosjekt til prosjekt.<br> Bildene nedenfor gir en indikasjon på hva som kan være tilgjengelig.<br> Send oss gjerne en forespørsel, så undersøker vi om vi har produkter<br> som samsvarer med dine spesifikasjoner. </p>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Bord og Benker</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Produseres etter ønsket mål, og benker leveres både med-
+                    og uten treverk.
+                </p>            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img alt="grå granittbrostein" src="B-produkter bilder/B-produkt1.jpg" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk4.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
                 </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="B-produkter bilder/B-produkt2.jpg" alt="Sort granittbrostein med polert overflate" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk6.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
                 </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img title="Granitt med naturlige årer" src="B-produkter bilder/B-produkt3.jpg" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8">
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img title="Platting av Granitt" src="B-produkter bilder/B-produkt4.jpg" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="B-produkter bilder/B-produkt5.jpg" alt="Sort granittbrostein med polert overflate" class="w-full h-48 object-cover" loading="lazy">
-                </div>
-                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img title="Brostein av Granitt" src="B-produkter bilder/B-produkt6.jpg" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk35.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
+
+        <!-- Grill / blomsterkasse -->
+    <section id="grill" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Grill / Blomsterkasse</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Produktene er populære både som grill og 
+                    blomsterkasse, de leveres både runde og firkantede / ovale, samt i ønsket høyde.
+                    <br> Også underlag til bålpanne leveres i ønsket diameter.
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk36.png" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk38.JPG" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk6.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Husnummer -->
+    <section id="husnummer" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Husnummer</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Leveres både med og uten lys.
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk37.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk42.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk43.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Ovnsplate -->
+    <section id="ovnsplate" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Ovnsplate</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Under / foran vedovnen
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk39.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk15.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk19.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Fliser for vegg / Brannmur -->
+    <section id="fliser" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Fliser for vegg / Brannmur</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Minimum 11 mm tykkelse. Øvrige mål etter ønske.
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk40.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk41.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Benkeplater for kjøkkenbenk -->
+    <section id="benkeplater" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Benkeplater for kjøkkenbenk etc.</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Polerte benkeplater produseres etter mål og kundens øvrige ønsker.
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk44.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk45.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                <!-- Småprodukter -->
+    <section id="småprodukter" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Småprodukter</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Polerte benkeplater produseres etter mål og kundens øvrige ønsker.
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk46.png" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk47.png" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk48.jpg" alt="granittbenkeplate med unikt mønster" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                <!-- Resteprodukter -->
+    <section id="resteprodukter" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Resteprodukter</h2>
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Rester, overskudd og skadet granitt som ikke kan benyttes i den daglige produksjonen,<br>
+                    returnerer tilbake til bruddet - og knuses til fyllmasse i ulike fraksjoner.<br>&nbsp;<br>De mest vanlige fraksjonene
+                    vi produserer, er: <br>&nbsp;<br>0-20 grus<br>0-50<br>20-150
+                </p>            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk50.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk49.jpg" alt="Benk av granitt med trekasse" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                    <!-- Øvrige Tjenester -->
+    <section id="øvrige-tjenester" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Øvrige tjeneser</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk51.jpeg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Saging som alternativ til sprenging</h4>
+                        <p class="text-gray-700 mb-4">Skånsom fjerning av fjell hvor rystelser unngås og med minimale konsekvenser for omgivelsene.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Privatbruk bilder/Privatbruk52.jpg" alt="Hvit granittbenkeplate med subtile sorte årer" class="w-full h-48 object-cover" loading="lazy">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold mb-2 text-black">Anlegg</h4>
+                        <p class="text-gray-700 mb-4">Vår bedrift kan også levere tjenester innen anlegg som f.eks
+                            opparbeidelse av tomter, drenering etc.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Bunntekst -->
     <footer class="bg-primary text-white py-8">
@@ -269,6 +461,8 @@
             </div>
         </div>
     </footer>
+
+    
 
 <script src="javascript/main.js"></script>
 
