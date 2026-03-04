@@ -1,5 +1,5 @@
 .prosjekt-bilde {
-    background-image: url(../index\ bilder/indexbanner3.jpg);
+    background-image: url(../index\ bilder/indexbanner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -164,13 +164,6 @@ header {
     }
 }
 
-@media (max-width: 768px) {
-    .kebab {
-        position: relative;
-        bottom: 60px;
-    }
-}
-
 .bg-color-granitt {
     background-color: #e5eaff;
 }
@@ -306,11 +299,11 @@ nav {
 }
 
 .bg-granitt10 {
-    background-image: url(../Privatbruk\ bilder/Privatbruk17.jpg);  /* eller full URL */
+    background-image: url(../index\ bilder/produkter.jpg);  /* eller full URL */
 }
 
 .bg-granitt11 {
-    background-image: url(../Prosjekt\ bilder/Prosjekt2.jpg);  /* eller full URL */
+    background-image: url(../index\ bilder/prosjekter.jpeg);  /* eller full URL */
 }
 
 .bg-granitt12 {
@@ -389,16 +382,80 @@ nav {
     background-image: url(../Privatbruk\ bilder/Privatbruk51.jpeg);  /* eller full URL */
 }
 
+.bg-granitt31 {
+    background-image: url(../Privatbruk\ bilder/Privatbruk51.jpeg);  /* eller full URL */
+}
+
+.bg-granitt32 {
+    background-image: url(../Prosjekt\ bilder/prosjekt9.jpg);  /* eller full URL */
+}
+
+.bg-granitt33 {
+    background-image: url(../Prosjekt\ bilder/prosjekt10.jpg);  /* eller full URL */
+}
+
+.bg-granitt34 {
+    background-image: url(../Prosjekt\ bilder/prosjekt13.jpg);  /* eller full URL */
+}
+
+.bg-granitt35 {
+    background-image: url(../Prosjekt\ bilder/prosjekt14.jpg);  /* eller full URL */
+}
+
+.bg-granitt36 {
+    background-image: url(../Prosjekt\ bilder/prosjekt18.jpg);  /* eller full URL */
+}
+
+.bg-granitt37 {
+    background-image: url(../Prosjekt\ bilder/prosjekt20.jpg);  /* eller full URL */
+}
+
+.bg-granitt38 {
+    background-image: url(../Prosjekt\ bilder/prosjekt24.JPG);  /* eller full URL */
+}
+
+.bg-granitt39 {
+    background-image: url(../Prosjekt\ bilder/prosjekt27.png);  /* eller full URL */
+}
+
+.bg-granitt40 {
+    background-image: url(../Prosjekt\ bilder/prosjekt30.PNG);  /* eller full URL */
+}
+
+.bg-granitt41 {
+    background-image: url(../Prosjekt\ bilder/prosjekt33.JPG);  /* eller full URL */
+}
+
+.bg-granitt42 {
+    background-image: url(../Prosjekt\ bilder/prosjekt35.JPG);  /* eller full URL */
+}
+
+.bg-granitt43 {
+    background-image: url(../Prosjekt\ bilder/prosjekt38.JPG);  /* eller full URL */
+}
+
+.bg-granitt44 {
+    background-image: url(../Prosjekt\ bilder/prosjekt42.png);  /* eller full URL */
+}
+
+.bg-granitt45 {
+    background-image: url(../Prosjekt\ bilder/prosjekt45.jpg);  /* eller full URL */
+}
+
+.bg-granitt46 {
+    background-image: url(../Prosjekt\ bilder/prosjekt47.jpg);  /* eller full URL */
+}
+
+.bg-granitt47 {
+    background-image: url(../Prosjekt\ bilder/prosjekt53.jpg);  /* eller full URL */
+}
+
+.bg-granitt48 {
+    background-image: url(../Prosjekt\ bilder/prosjekt64.jpg);  /* eller full URL */
+}
+
 
 .googlemaps {
     width: 1700px;
     height: 450px;
-}
-
-.index-banner {
-    position: relative;
-    left: 150px;
-    bottom: 100px;
-
-
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
+            <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" type="image/png" href="favicon/favicon6.png">
     <script>
         tailwind.config = {
@@ -63,96 +64,489 @@
     <!-- Produktkategorier -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <a href="#Bybaneprosjektet" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt19 bg-cover bg-center group">
+                <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Evjen Granitt leverer til større og mindre prosjekter,
+                     i hele Norges land.<br> Vårt tankesett sier at intet prosjekt er for stort
+                      – og intet er for lite.<br> Derfor er ALLE våre kunder; dvs. det offentlige
+                       (stat og kommune),<br> private utbyggere / - byggherrer, anleggsgartnere, entreprenører og private.
+                </p>
+            <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
+                <a href="#oslo" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt31 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Bergen</h4>             
+                        <h4 class="font-bold mb-2 text-white text-center">Regjeringskvartalet Oslo</h4>
                     </div>
                 </a>
-                <a href="#Nesttunprosjektet" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt20 bg-cover bg-center group">
+                <a href="#tromsø" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt32 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Nesttun</h4>             
+                        <h4 class="font-bold mb-2 text-white text-center">Storgata Tromsø</h4>
                     </div>
                 </a>
-                <a href="#Prosjekter-for-private-kunder" class="relative block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt21 bg-cover bg-center group">
+                <a href="#skaarsletta" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt33 bg-cover bg-center group">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
                     <div class="relative z-10 py-20">
-                        <h4 class="text-xl font-bold mb-2 text-white text-center">Flere prosjekter</h4>             
+                        <h4 class="font-bold mb-2 text-white text-center">Skaarsletta Lørenskog</h4>
+                    </div>
+                </a>
+                <a href="#havnepromenaden" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt34 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Havnepromenaden Mo i Rana</h4>
+                    </div>
+                </a>
+                <a href="#kvernstein" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt35 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Kvernstein Brønnøysund</h4>
+                    </div>
+                </a>
+                <a href="#bord" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt36 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Bodø Domkirke</h4>
+                    </div>
+                </a>
+                <a href="#badeplass" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt37 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Badeplass Meløy Kommune</h4>
+                    </div>
+                </a>
+                <a href="#uteområde" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt38 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Uteområde Meløy vgs. Avd. Glomfjord</h4>
+                    </div>
+                </a>
+                <a href="#bypakke" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt39 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Bypakke Bodø</h4>
+                    </div>
+                </a>
+                <a href="#sjøåsan" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt40 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Sjøåsan Bodø</h4>
+                    </div>
+                </a>
+                <a href="#fauske" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt41 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Fauske</h4>
+                    </div>
+                </a>
+                <a href="#gildeskål" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt42 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Gildeskål</h4>
+                    </div>
+                </a>
+                <a href="#kirkegård" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt43 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Kirkegård, minnebauta og tavle </h4>
+                    </div>
+                </a>
+                <a href="#bybanen" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt44 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Bybanen Bergen</h4>
+                    </div>
+                </a>
+                <a href="#nesttun" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt45 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Nesttun Torg, Bergen</h4>
+                    </div>
+                </a>
+                <a href="#svolvær" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt46 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Svolvær Torg</h4>
+                    </div>
+                </a>
+                <a href="#private" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt47 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Private kunder</h4>
+                    </div>
+                </a>
+                <a href="#saging" class="relative h-60 block p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 overflow-hidden bg-granitt48 bg-cover bg-center group">
+                    <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-300"></div>
+                    <div class="relative z-10 py-20">
+                        <h4 class="font-bold mb-2 text-white text-center">Saging</h4>
                     </div>
                 </a>
             </div>
         </div>
     </section>
 
-    
-
-    <!-- Bybane prosjekt -->
-    <section id="Bybaneprosjektet" class="py-16 bg-gray-100">
+                   <!-- Regjeringskvartalet Oslo -->
+    <section id="oslo" class="py-10 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Bergen bybane</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Regjeringskvaralet Oslo</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller i ulike dimensjoner.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt1.jpg" alt="Grå granittbrostein i forskjellige størrelser" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="" alt="Evjen Granitt, regjeringskvartalet" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt2.jpg" alt="Sort granittbrostein med polert overflate" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="" alt="Evjengranitt Regjeringskvaralet" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt3.jpg" alt="Rødbrun granittbrostein med naturlig finish" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="" alt="Oslo regjeringskvartal granitt" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- Nesttun prosjekt -->
-    <section id="Nesttunprosjektet" class="py-16 bg-gray-100">
+                   <!-- Storgata Tromsø -->
+    <section id="tromsø" class="py-10 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Nesttun gågate og bypark</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Storgata Tromsø</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller fra Evjen i kombinasjon med Altaskifer.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt4.jpg" alt="Sort granittbrostein med polert overflate" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="" alt="EvjenGranitt i Storagata Tromsø" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt5.jpg" alt="Rødbrun granittbrostein med naturlig finish" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="" alt="Storgata Tromsø granitt" class="w-full h-60 object-cover" loading="lazy">
                 </div>
                 <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt6.jpg" alt="Rødbrun granittbrostein med naturlig finish" class="w-full h-48 object-cover" loading="lazy">
+                    <img src="" alt="Storgata Tromsø, Evjengranitt, belegningsstein" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="" alt="Granitt belegningsstein Tromsø" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt8.jpg" alt="Belegningsstein i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt9.jpg" alt="brostein, Tromsø" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
     </section>
 
-
-
-
-
-
-    <!-- prosjekter for private kunder -->
-    <section id="Prosjekter-for-private-kunder" class="py-16 bg-white">
+                   <!-- Skaarsletta Lørenskog -->
+    <section id="skaarsletta" class="py-10 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-black">Flere prosjekter</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Skaarsletta Lørenskog</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller, kantstein og kasellestein</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt7.jpg" alt="Hvit granittbenkeplate med subtile grå årer" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt10.jpg" alt="Evjen Granitt, Skaarsletta Lørenskog" class="w-full h-60 object-cover" loading="lazy">
                 </div>
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt8.jpg" alt="Svart granittbenkeplate med hvitspreng" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt11.jpg" alt="skarsletta lørenskog belegningsstein i granitt" class="w-full h-60 object-cover" loading="lazy">
                 </div>
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt9.jpg" alt="Blågrå granittbenkeplate med unikt mønster" class="w-full h-48 object-cover" loading="lazy">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt12.png" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-8 gap-6">
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt10.jpg" alt="Hvit granittbenkeplate med subtile grå årer" class="w-full h-48 object-cover" loading="lazy">
+        </div>
+    </section>
+
+                   <!-- Havnepromenaden Mo i Rana -->
+    <section id="havnepromenaden" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Havnepromenaden Mo i Rana</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Belegningsheller</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt13.jpg" alt="Evjen Granitt, Havnepromenaden Mo i Rana" class="w-full h-72 object-cover" loading="lazy">
                 </div>
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt11.jpg" alt="Svart granittbenkeplate med hvitspreng" class="w-full h-48 object-cover" loading="lazy">
+        </div>
+    </section>
+
+                   <!-- Kvernstein Brønnøysund -->
+    <section id="kvernstein" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Kvernstein Brønnøysund</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt14.jpg" alt="Evjen Granitt, Kvernstein Brønnøysund" class="w-full h-72 object-cover" loading="lazy">
                 </div>
-                <div class="bg-gray-50 rounded-lg overflow-hidden shadow-md image-container">
-                    <img src="Prosjekt bilder/Prosjekt12.jpg" alt="Blågrå granittbenkeplate med unikt mønster" class="w-full h-48 object-cover" loading="lazy">
+        </div>
+    </section>
+
+                   <!-- Bodø Domkirke -->
+    <section id="skaarsletta" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Bodø Domkirke</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller og utescene / benk med innebygd varme.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt15.png" alt="Evjen Granitt, Skaarsletta Lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt16.jpg" alt="skarsletta lørenskog belegningsstein i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt17.jpg" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt18.jpg" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   <!-- Badeplass Meløy Kommune -->
+    <section id="badeplass" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Badeplass Meløy Kommune</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Bord, benker og sitteklosser.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt19.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt20.jpg" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt21.jpg" alt="granittbenk Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   <!-- Uteområde Meløy vgs. Avd. Glomfjord -->
+    <section id="uteområde" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Uteområde Meløy vgs. Avd. Glomfjord</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Bord, benker, griller og klosser i ulik størrelse.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt22.JPG" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt23.JPG" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt24.JPG" alt="granittbenk Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   <!-- Bypakke Bodø -->
+    <section id="bypakke" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Bypakke Bodø</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Svaberg i rundkjøringer.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt25.jpg" alt="Evjen Granitt, Skaarsletta Lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt26.JPG" alt="skarsletta lørenskog belegningsstein i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt27.png" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt28.jpeg" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   <!-- Sjøåsan Bodø -->
+    <section id="sjøåsan" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Sjøåsan Bodø</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Natursteinmur.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt29.JPG" alt="Evjen Granitt, Skaarsletta Lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt30.PNG" alt="skarsletta lørenskog belegningsstein i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt31.png" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt32.png" alt="granittheller lørenskog" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   <!-- Fauske -->
+    <section id="fauske" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Fauske</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Natursteinmur.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt33.JPG" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt34.JPG" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+                   <!-- Gildeskål -->
+    <section id="gildeskål" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Gildeskål</h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Natursteinmur.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt35.JPG" alt="Evjen Granitt, Kvernstein Brønnøysund" class="w-full h-72 object-cover" loading="lazy">
+                </div>
+        </div>
+    </section>
+
+        <!-- Kirkegård, minnebauta og tavle  -->
+    <section id="kirkegård" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Kirkegård, minnebauta og tavle </h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Bodø og Meløy kommuner.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt36.JPG" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt37.jpg" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt38.JPG" alt="granittbenk Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt39.JPG" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt40.jpg" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt41.jpg" alt="granittbenk Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Bybanen Bergen  -->
+    <section id="bybanen" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Bybanen Bergen </h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller og kantstein.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt42.png" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt43.jpg" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt44.jpg" alt="granittbenk Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Nesttun Torg Bergen  -->
+    <section id="nesttun" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Nesttun Torg Bergen </h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller og kantstein.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt45.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt46.jpg" alt="Meløy Kommune sitteklosser i granitt" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Svolvær Torg  -->
+    <section id="svolvær" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Svolvær Torg </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt47.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Private kunder  -->
+    <section id="private" class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Private kunder </h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Heller, kantstein, natursteinsmurer, trappetrinn, *******</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt48.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt49.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt50.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt51.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt52.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt53.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt54.png" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt55.JPG" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt56.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt57.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt58.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt59.png" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt60.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Saging  -->
+    <section id="saging" class="py-10 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-black">Saging </h2>
+            <p class="text-gray-700 text-center text-2x1 py-2 mb-12">Saging som alternativ til sprenging – Hunstad og Gildeskål</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt61.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt62.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt63.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt64.jpg" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-md image-container">
+                    <img src="Prosjekt bilder/prosjekt65.png" alt="Evjen Granitt, Badeplass Meløy" class="w-full h-60 object-cover" loading="lazy">
                 </div>
             </div>
         </div>
