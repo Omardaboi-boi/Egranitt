@@ -1,12 +1,12 @@
-       // Mobil navigasjon med togglefunksjon
-        document.querySelector('button.md\\:hidden').addEventListener('click', function() {
-            const nav = document.querySelector('nav.hidden');
-            if (nav) {
+            const menuBtn = document.getElementById('menu-btn');
+            const nav = document.getElementById('mobile-nav');
+
+            menuBtn.addEventListener('click', function() {
+                // Vi sjekker ikke lenger om den har "hidden" i selektoren, 
+                // vi bare toggler klassene på det faste elementet.
                 nav.classList.toggle('hidden');
                 nav.classList.toggle('block');
-                nav.classList.add('absolute', 'top-20', 'right-4', 'bg-white', 'p-4', 'shadow-lg', 'rounded-lg');
-            }
-        });
+            });
 
         // Jevn skrolling for ankerlenker
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
