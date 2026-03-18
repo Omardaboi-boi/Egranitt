@@ -111,12 +111,14 @@ header {
 
 @media only screen and (max-width: 768px) {
     .banner-text-resize {
-        font-size: 9px; /* Eller en annen passende størrelse */
-        line-height: 1.5; /* Juster linjehøyden for bedre lesbarhet */
-        position: initial;
-        background-color: white;
-        box-shadow: -2px 0 10px rgba(0,0,0,0.2);
-        padding: 40px 1px;
+        width: 100%;
+        background-color: white; /* Or your preferred background */
+        position: absolute; /* Keeps it over the content */
+        top: 90px; /* Adjust based on your header height */
+        left: 0;
+        z-index: 50;
+        padding: 1rem 2rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     }
 }
 
