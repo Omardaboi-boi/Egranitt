@@ -9,6 +9,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" href="favicon/favicon6.png">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/nb_NO/sdk.js#xfbml=1&version=v18.0">
+    </script>
     <script>
         tailwind.config = {
             theme: {
@@ -296,11 +300,41 @@
             </div>
         </div>
         <div class="py-16 bg-gray-100">
-                    <div class="container mx-auto px-4 bg-gray-100" >
-                                    <h2 class="text-xl font-bold mt-8 mb-4 text-black">Her finner du oss <i class="text-primary fas fa-home"></i></h2>
-                    <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                        <iframe title="googlemaps" class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20000!2d14.39!3d67.18!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x45df6b5f5f5f5f5f%3A0x0!2sBod%C3%B8%2C+Norge!3m2!1d67.280357!2d14.404916!4m5!1s0x45df6b69f8833ea1%3A0xa1f943aa6c724f83!2sEvjen+Granitt+AS%2C+Evjen%2C+8120+Nyg%C3%A5rdsj%C3%B8en!3m2!1d67.0855!2d14.3971!5e0!3m2!1sno!2sno" allowfullscreen="" loading="lazy"></iframe>
+    <div class="container mx-auto px-4">
+
+        <h1 class="text-2xl font-bold mt-8 mb-6 text-black text-center">
+            Info og kart <i class="text-primary fas fa-home"></i>
+        </h1>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden p-4">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
+
+                <!-- Facebook VENSTRE -->
+        <div class="fb-page"
+            data-href="https://www.facebook.com/egranitt"
+            data-tabs="timeline"
+            data-height="500"
+            data-width="600"
+            data-adapt-container-width="false">
+        </div>
+
+                <!-- Google Maps HØYRE -->
+                <div class="w-full">
+                    <iframe 
+                        title="googlemaps"
+                        class="w-full h-[500px] rounded-lg border-0"
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20000!2d14.39!3d67.18!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x45df6b5f5f5f5f5f%3A0x0!2sBod%C3%B8%2C+Norge!3m2!1d67.280357!2d14.404916!4m5!1s0x45df6b69f8833ea1%3A0xa1f943aa6c724f83!2sEvjen+Granitt+AS%2C+Evjen%2C+8120+Nyg%C3%A5rdsj%C3%B8en!3m2!1d67.0855!2d14.3971!5e0!3m2!1sno!2sno"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+
             </div>
+        </div>
+    </div>
+</div>
+
         </div>
     </section>
 
