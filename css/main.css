@@ -101,7 +101,7 @@
 
 
 .shadow-text {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
 
 /* Grunnoppsett */
@@ -293,7 +293,7 @@ nav {
 }
 
 .bg-granitt8 {
-    background-image: url(../utstyr\ bilder/utstyr22.jpg);  /* eller full URL */
+    background-image: url(../utstyr\ bilder/utstyr22.jpeg);  /* eller full URL */
 }
 
 .bg-granitt9 {
@@ -454,6 +454,14 @@ nav {
 
 .bg-granitt48 {
     background-image: url(../Prosjekt\ bilder/prosjekt64.jpg);  /* eller full URL */
+}
+
+.bg-granitt49 {
+    background-image: url(../utstyr\ bilder/utstyrvideo8.gif);  /* eller full URL */
+}
+
+.bg-granitt50 {
+    background-image: url(../utstyr\ bilder/utstyrvideo7.gif);  /* eller full URL */
 }
 
 
